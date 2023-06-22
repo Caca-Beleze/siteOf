@@ -136,7 +136,7 @@ input::placeholder{
 }
 
 .custom-input::before {
-  content: "Data da consulta: ";
+  content: "Consultas do dia: ";
   color: white;
   text-align: justify;
 }

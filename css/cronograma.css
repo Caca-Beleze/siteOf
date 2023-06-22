@@ -1,20 +1,24 @@
 body {overflow-x: hidden;}
-#bola1{position: absolute;
-    width: 511px;
-    height: 511px;
-    left: 1030px;
-    top: 290px;
+
+#bola1{
+  position: absolute;
+    width: 530px;
+    height: 530px;
+    left: 970px;
+    top: 230px;
     border-radius: 100%;
-    background: rgba(255, 217, 224, 0.63);}
+    background: rgba(255, 217, 224, 0.63);
+  }
 
     #bola2{
         position: absolute;
-        width: 611px;
-        height: 611px;
+        width: 630px;
+        height: 630px;
         left: 0px;
         top: 90px;
         border-radius: 100%;
-        background: rgba(255, 217, 224, 0.63);}
+        background: rgba(255, 217, 224, 0.63);
+      }
 
    
     #salvar {
@@ -129,51 +133,43 @@ body {overflow-x: hidden;}
   #med{
     position: absolute; 
     top: 82px;
-     left: 940px;
+    left: 750px;
   }
   #med2{
     top: 130px; 
-    left: 940px;
+    left: 750px;
   }
 
   #cd{
     position: absolute; 
-    top: 172px; 
-    left: 100px;
+    top: 240px; 
+    left: 130px;
   }
   #cd2{
-    top: 210px;
-     left: 100px;
+    top: 250px;
+    left: 230px;
   }
 
   #p1{
     position: absolute; 
-    top: 280px; 
-    left: 100px;
+    top: 5px; 
+    left: 10px;
   }
+
   #p1i{
     width: 280px; 
     height: 30px; 
     top: 320px;
-     left: 99px;
+    left: 99px;
   }
 
-  #p2{
-    position: absolute;
-     top: 350px;
-     left: 100px;
-  }
+  
   #p2i{
     width: 280px;
      height: 30px;
      top: 390px;
      left: 99px;
-  }
-
-  #p3{
-    position: absolute;
-     top: 415px; 
-    left: 100px;
+  
   }
   #p3i{
     width: 280px; 
@@ -182,10 +178,10 @@ body {overflow-x: hidden;}
     left: 99px;
   }
 
-  #p4{
+  #p2{
     position: absolute; 
-    top: 485px; 
-    left: 100px;
+    top: 5px; 
+    left: -90px;
   }
   #i1{
     width: 280px; 
@@ -198,6 +194,7 @@ body {overflow-x: hidden;}
     height: 30px;
      top: 320px;
      left: 600px;}
+
   #i3{width: 280px; 
     height: 30px;
      top: 390px;
@@ -218,13 +215,13 @@ body {overflow-x: hidden;}
 
   #imgcalen{
     position: absolute;
-     top: 210px;
-     left: 1020px;
+     top: 220px;
+     left: 1030px;
   }
 
   #hp{
-    position: absolute
-    ; top: 600px;
+    position: absolute; 
+    top: 600px;
      left: 80px;
   }
 
@@ -232,6 +229,27 @@ body {overflow-x: hidden;}
     width: 150px;
     height: 25px; 
     top: 663px; 
-    left: 99px;
+    left: 120px;
+  }
+  #i7{
+    width: 150px;
+    height: 25px; 
+    top: 663px; 
+    left: 370px;
+  }
+  #cmc{
+    position: absolute;
+    margin-top: 622px; 
+    margin-left: 80px;
+  }
+  #fim{
+    position: absolute;
+    margin-top: 622px; 
+    margin-left: 340px;
+  }
+  .custom-input::before {
+    content: "Data da consulta: ";
+    color: white;
+    text-align: justify;
   }
 
